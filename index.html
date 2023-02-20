@@ -122,12 +122,22 @@
 			  }
 			}
 		
-			@media screen and (max-width: 736px) {
-			  .image.fit img {
-			    max-width: 100%;
-			    height: auto;
+			@media only screen and (max-width: 736px) {
+			  .row {
+			    display: flex;
+			    flex-direction: column;
+			  }
+
+			  .col-4 {
+			    order: 2;
+			    margin-bottom: 2em;
+			  }
+
+			  .col-8 {
+			    order: 1;
 			  }
 			}
+
 
 
 		</style>
