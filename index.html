@@ -122,22 +122,26 @@
 			  }
 			}
 		
-			@media only screen and (max-width: 736px) {
+			@media only screen and (max-width: 768px) {
 			  .row {
 			    display: flex;
 			    flex-direction: column;
 			  }
 
 			  .col-4 {
-			    order: 2;
-			    margin-bottom: 2em;
+			    order: -1;
 			  }
 
-			  .col-8 {
-			    order: 1;
+			  .col-4 img {
+			    display: block;
+			    margin: 0 auto;
+			    width: 100%;
+			  }
+
+			  .col-8 header {
+			    margin-top: 0;
 			  }
 			}
-
 
 
 		</style>
