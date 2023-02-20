@@ -2661,5 +2661,11 @@ input, select, textarea {
 	  .features article .icon:before {
 		font-size: 1.25rem; } }
 
-	
+	@media screen and (max-width: 480px) {
+  		.image {
+    		display: block;
+    		margin: 0 auto;
+    		width: 100%;
+  		}
+	}
 
