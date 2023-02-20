@@ -2660,5 +2660,21 @@ input, select, textarea {
 	@media screen and (max-width: 480px) {
 	  .features article .icon:before {
 		font-size: 1.25rem; } }
+
+	@media screen and (max-width: 767px) {
+		.header {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		}
+		  
+		.profile-image {
+		  margin-bottom: 1rem;
+		}
+		  
+		h1 {
+		  text-align: center;
+		}
+	  }
   
 
