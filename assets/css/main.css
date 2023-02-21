@@ -2669,3 +2669,15 @@ input, select, textarea {
   		}
 	}
 
+
+/* trecho adcionado */
+
+		  .box h3 a {
+			color: #282828;
+		  }
+		  
+		  .box p {
+			color: #888;
+		  }
+
+
