@@ -2681,3 +2681,12 @@ input, select, textarea {
 		  }
 
 
+		@media screen and (max-width: 480px) {
+		  h3 {
+		    color: #000000; /* cor preta para o título h3 */
+		  }
+
+		  p {
+		    color: #888888; /* cor #888 para o parágrafo */
+		  }
+		}
